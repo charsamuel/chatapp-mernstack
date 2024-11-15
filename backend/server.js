@@ -20,7 +20,7 @@ const PORT = process.env.PORT || 5001;
 // CORS configuration to allow requests from your frontend (localhost:3000 in this case)
 app.use(
 	cors({
-	  origin: "http://localhost:3000", // Frontend origin
+	  origin: "https://chatapp-mernstack-3.onrender.com", // Frontend origin
 	  methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
 	  credentials: true, // Allow cookies if needed
 	})
