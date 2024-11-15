@@ -3,31 +3,32 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "server.js",
-	"scripts": {
-		"start": "node backend/server.js",
-		"server": "nodemon backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
-	},
 	"type": "module",
+	"scripts": {
+	  "start": "node backend/server.js",
+	  "server": "nodemon backend/server.js",
+	  "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"engines": {
-		"node": ">=20.x",
-		"npm": ">=10.x"
+	  "node": ">=20.x",
+	  "npm": ">=10.x"
 	},
 	"dependencies": {
-		"bcryptjs": "^2.4.3",
-		"cookie-parser": "^1.4.7",
-		"cors": "^2.8.5",
-		"dotenv": "^16.4.1",
-		"express": "^4.21.1",
-		"jsonwebtoken": "^9.0.2",
-		"mongoose": "^8.8.1",
-		"socket.io": "^4.8.1",
-		"socket.io-client": "^4.8.1"
+	  "bcryptjs": "^2.4.3",
+	  "cookie-parser": "^1.4.7",
+	  "cors": "^2.8.5",
+	  "dotenv": "^16.4.1",
+	  "express": "^4.21.1",
+	  "jsonwebtoken": "^9.0.2",
+	  "mongoose": "^8.8.1",
+	  "socket.io": "^4.8.1",
+	  "socket.io-client": "^4.8.1"
 	},
 	"devDependencies": {
-		"nodemon": "^3.1.7"
+	  "nodemon": "^3.1.7"
 	}
-}
+  }
+  
